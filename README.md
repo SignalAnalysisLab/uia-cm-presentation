@@ -1,5 +1,7 @@
 # Introduction to condition monitoring ofroller bearings
 
+**[Click here](latex/Main.pdf) to see the presentation**
+
 An introduction to the concept of envelope and order spectrum.
 
 To run the notebook yourself, simply
@@ -13,5 +15,3 @@ jupyter notebook main.ipynb
 The notebook should look something like
 
 ![screenshot of notebook](python/figs/notebook-screenshot.png)
-
-[Click here](latex/Main.pdf) to see the presentation
