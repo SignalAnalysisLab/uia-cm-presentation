@@ -1,8 +1,8 @@
 # Introduction to condition monitoring ofroller bearings
 
-**[Click here](latex/Main.pdf) to see the presentation**
-
 An introduction to the concept of envelope and order spectrum.
+
+**[Click here](latex/Main.pdf) to see the presentation.**
 
 To run the notebook yourself, simply
 
