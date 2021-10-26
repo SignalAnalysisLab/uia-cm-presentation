@@ -1,2 +1,3 @@
-# uia-cm-2021-10-26
-Condition monitoring presentation for UiA
+# Introduction to condition monitoring ofroller bearings
+
+An introduction to the concept of envelope and order spectrum.
