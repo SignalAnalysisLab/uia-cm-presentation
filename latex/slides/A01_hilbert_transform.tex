@@ -1,0 +1,17 @@
+\begin{frame}
+    \frametitle{The Hilbert Transform}
+    \small
+    The analytic signal is defined as 
+    \begin{equation}
+        z(t) = x(t) + j y(t) = a(t) e^{j\theta}
+    \end{equation}
+    
+    where $j^2=-1$ and $y(t)$ is the Hilbert transform of $x(t)$ so that
+    
+    \begin{equation}
+        y(t) = \frac{\rm{pv}}{\pi} \int_{-\infty}^{\infty} \frac{x(\tau)}{t-\tau} d\tau
+    \end{equation}
+    
+    where pv denotes the Cauchy principal value.  The Hilbert transform can conceptually be considered as the convolution $x(t) * \frac{1}{t}$.
+   
+\end{frame}

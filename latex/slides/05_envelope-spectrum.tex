@@ -1,0 +1,28 @@
+\begin{frame}
+    \frametitle{The envelope spectrum}
+    \small
+    
+    Using the analytic signal
+    \begin{equation}
+        z(t)=x(t)+jy(t) = a(t) e^{j\theta}
+    \end{equation}
+    
+    we can define the envelope as
+    
+    \begin{equation}
+       e(t) = |z(t)| = | x(t) + jy(t) | = a(t)
+    \end{equation}
+   
+   The envelope spectrum is thus defined as the fourier spectrum of the envelope, $a(t)$
+   
+   \begin{equation}
+       E_{f}(\omega) = \mathscr{F}\{a(t)\} = \int_{-\infty}^{\infty} e(t) e^{-j\omega t} dt
+   \end{equation}
+   
+   A envelope periodogram is then defined as 
+   
+   \begin{equation}
+       E(\omega) = |E_{f}(\omega)|^2
+   \end{equation}
+   
+\end{frame}

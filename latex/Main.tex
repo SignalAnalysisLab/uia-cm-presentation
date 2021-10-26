@@ -1,0 +1,99 @@
+%% If you have any problems using this template, please contact the author: %%
+%% Chris Carmona: carmona@stats.ox.ac.uk ; chriscarmona.me %%
+
+\documentclass{beamer}
+
+\usepackage{mathrsfs,amsmath}
+
+\include{preamble}
+%% Information (author, title, etc.) %%
+
+\title[Condition monitoring]{% short title for footer
+    Introduction to condition monitoring of roller bearings
+    \vspace{0.5cm}
+}
+
+\author{ Geir Kulia}
+
+% \institute{
+%         \textit{Department of Statistics}\\
+%         \textit{University of Oxford}
+%         \vspace{0.5cm}
+% }
+\date[UiA 27.10.21]{% short date for footer
+    University of Agder\\27 October 2021
+}
+
+
+%% Content of slides %%
+%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%
+
+% Title slide %
+{
+    \setbeamertemplate{footline}{}
+    \setbeamertemplate{headline}{}
+    \setbeamercolor{background canvas}{bg=oxfordblue}
+    \maketitle
+}
+
+% \input{slides/table-of-contents}
+
+%now include the slides
+\setbeamercovered{transparent}
+
+\input{slides/01_motivation}
+\input{slides/02_measurement}
+\input{slides/03_pre-processing}
+\input{slides/04_analytic-signal-figure}
+\input{slides/05_envelope-spectrum}
+\input{slides/04_2_envelope_figure}
+\input{slides/06_orders}
+\input{slides/05_2_envelope-spectrum-image}
+%----------------------------%
+
+
+%----------------------------%
+% Conclusions
+
+% {\usebackgroundtemplate{%
+%   \includegraphics[width=\paperwidth,height=\paperheight]{images/logo}} 
+\begin{frame}
+    \frametitle{}
+    \centering
+    
+    % \Large\color{oxfordblue}
+    Thank you!
+
+    \vspace{0.5cm}
+    geir@sal.no
+    
+    \vspace{0.5cm}
+    
+    Give anonymous feedback on
+    https://www.admonymous.co/geir
+    
+    \vspace{0.5cm}
+    Find the presentation and code at
+    https://github.com/kulia/uia-cm-2021-10-26
+
+\end{frame}
+% }
+%----------------------------%
+
+% References slide
+\begin{frame}
+\frametitle{References}
+\small
+\bibliographystyle{plain}
+\bibliography{references} % bibliography file
+\end{frame}
+
+% Appendices
+
+\input{slides/A01_hilbert_transform}
+
+%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%

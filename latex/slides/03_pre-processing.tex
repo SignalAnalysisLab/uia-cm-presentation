@@ -1,0 +1,21 @@
+\begin{frame}
+    \frametitle{The analytic signal}
+    \small
+    The acceleration signal is high-pass filtered to remove unwanted machine noise.  The design of these filters are outside the scope of this presentation.  The resulting acceleration signal $x(t)$ is then used to generate an analytic signal, $z(t)$.  It is defined as 
+    \begin{equation}
+        z(t) = x(t) + j y(t) = a(t) e^{j\theta}
+    \end{equation}
+    
+    where $j^2=-1$ and $y(t)$ is the Hilbert transform of $x(t)$ can conceptually be considered as the convolution $x(t) * \frac{1}{t}$. and where the amplitude is
+    
+    \begin{equation}
+        a(t) = \sqrt{x^2(t)+y^2(t)}
+    \end{equation}
+    
+    and the phase (not to be confused with phase shift is
+    
+    \begin{equation}
+        \theta(t) = \arctan\Big(\frac{y}{x}\Big)
+    \end{equation}
+   
+\end{frame}
