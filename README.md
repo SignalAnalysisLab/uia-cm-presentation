@@ -1,6 +1,6 @@
 # Introduction to condition monitoring ofroller bearings
 
-An introduction to the concept of envelope and order spectrum.
+This repo contains an introductory presentation to the concepts of envelope and order spectrum.  This covers the basic principles and is not a complete overview.
 
 **[Click here](latex/Main.pdf) to see the presentation.**
 
