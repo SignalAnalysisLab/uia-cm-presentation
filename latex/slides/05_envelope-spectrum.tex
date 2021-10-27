@@ -1,5 +1,5 @@
 \begin{frame}
-    \frametitle{The envelope and order spectrum}
+    \frametitle{The envelope}
     \small
     
     Using the analytic signal
@@ -10,19 +10,19 @@
     we can define the envelope as
     
     \begin{equation}
-       e(t) = |z(t)| = | x(t) + jy(t) | = a(t)
+       e(t) = \mid{z(t)}\mid = \mid{x(t) + jy(t)}\mid = a(t)
     \end{equation}
    
    The envelope spectrum is thus defined as the fourier spectrum of the envelope, $a(t)$
    
    \begin{equation}
-       E_{f}(\omega) = \mathscr{F}\{a(t)\} = \int_{-\infty}^{\infty} e(t) e^{-j\omega t} dt
+       e_{f}(\omega) = \mathscr{F}\{a(t)\} = \int_{-\infty}^{\infty} e(t) e^{-j\omega t} dt
    \end{equation}
    
    A envelope periodogram is then defined as 
    
    \begin{equation}
-       E(\omega) = |E_{f}(\omega)|^2
+       E(\omega) = \mid{e_{f}(\omega)}\mid^2
    \end{equation}
    
 \end{frame}
